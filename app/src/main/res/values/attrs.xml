@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <attr name="destitle" format="string"/>
+        <attr name="checkoff" format="string"/>
+        <attr name="checkon" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="RatingView">
+        <attr name="rating_unrated_color" format="color"/>
+        <attr name="rating_rated_color" format="color"/>
+        <attr name="rating_title_color" format="color"/>
+        <attr name="rating_outline_color" format="color"/>
+        <attr name="rating_default_color" format="color"/>
+        <attr name="rating_title_visible" format="boolean"/>
+        <attr name="rating_max" format="integer"/>
+    </declare-styleable>
+</resources>

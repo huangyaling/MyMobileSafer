@@ -1,0 +1,46 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">MobileSafer</string>
+    <string name="safer_version">版本名</string>
+    <string name="version_update">版本更新</string>
+    <string name="confirm_update">立即更新</string>
+    <string name="cancel_update">取消更新</string>
+    <string name="function_title">功能列表</string>
+    <string name="welcome_safer">主银，我是您的手机小卫士</string>
+
+    <string name="setting_centre">设置中心</string>
+    <string name="app_manager">应用程序管理</string>
+
+    <string name="auto_update">自动更新设置</string>
+    <string name="auto_update_on">自动更新设置已打开</string>
+    <string name="auto_update_off">自动更新设置已关闭</string>
+
+    <string name="mobile_location">电话归属地的显示设置</string>
+    <string name="mobile_location_on">电话归属地的显示设置已打开</string>
+    <string name="mobile_location_off">电话归属地的显示设置已关闭</string>
+
+    <string name="location_style">号码归属地设置</string>
+    <string name="location_style_on">号码归属地设置已打开</string>
+    <string name="location_style_off">号码归属地设置已关闭</string>
+
+    <string name="black_block_list">黑名单拦截设置</string>
+    <string name="black_block_list_on">黑名单拦截设置已打开</string>
+    <string name="black_block_list_off">黑名单拦截设置已关闭</string>
+
+    <string name="programmer_lock">程序锁设置</string>
+    <string name="programmer_lock_on">程序锁设置已打开</string>
+    <string name="programmer_lock_off">程序锁设置已关闭</string>
+
+    <string name="progress_used">已用</string>
+    <string name="progress_free">可用</string>
+    <string name="memory_title">内存：</string>
+    <string name="sd_memory_title">SD卡：</string>
+    <string name="app_type_system">内存</string>
+    <string name="app_type_sd">SD卡</string>
+    <string name="application_count">应用程序(<xliff:g id="USER_APP_COUNTE">%1$s</xliff:g>)个</string>
+    <string name="user_application">用户程序(<xliff:g id="USER_APP_COUNTE">%1$s</xliff:g>)个</string>
+    <string name="system_application">系统程序(<xliff:g id="SYSTEM_APP_COUNTE">%1$s</xliff:g>)个</string>
+    <string name="rating_view_title1">安装包</string>
+    <string name="rating_view_title2">多媒体</string>
+    <string name="rating_view_title3">图片</string>
+    <string name="rating_view_title4">缓存</string>
+</resources>

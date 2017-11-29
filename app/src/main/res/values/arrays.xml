@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="functions_array">
+        <item>手机防盗</item>
+        <item>通信卫士</item>
+        <item>软件管理</item>
+        <item>流量统计</item>
+        <item>进程管理</item>
+        <item>缓存清理</item>
+        <item>手机杀毒</item>
+        <item>高级工具</item>
+        <item>设置中心</item>
+    </array>
+    <array name="functions_icon">
+        <item>@drawable/safe</item>
+        <item>@drawable/callmsgsafe</item>
+        <item>@drawable/app</item>
+        <item>@drawable/netmanager</item>
+        <item>@drawable/trojan</item>
+        <item>@drawable/sysoptimize</item>
+        <item>@drawable/taskmanager</item>
+        <item>@drawable/atools</item>
+        <item>@drawable/settings</item>
+    </array>
+</resources>

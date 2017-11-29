@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/TitleStyle"
+        android:text="@string/setting_centre"/>
+    <com.bella.mobilesafer.view.SettingItemView
+        android:id="@+id/auto_update_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:destitle="@string/auto_update"
+        app:checkoff="@string/auto_update_off"
+        app:checkon="@string/auto_update_on">
+    </com.bella.mobilesafer.view.SettingItemView>
+
+    <com.bella.mobilesafer.view.SettingItemView
+        android:id="@+id/mobile_location_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:destitle="@string/mobile_location"
+        app:checkoff="@string/mobile_location_on"
+        app:checkon="@string/mobile_location_off">
+    </com.bella.mobilesafer.view.SettingItemView>
+    <com.bella.mobilesafer.view.SettingItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:destitle="@string/location_style"
+        app:checkoff="@string/location_style_on"
+        app:checkon="@string/location_style_off">
+    </com.bella.mobilesafer.view.SettingItemView>
+    <com.bella.mobilesafer.view.SettingItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:destitle="@string/black_block_list"
+        app:checkoff="@string/black_block_list_on"
+        app:checkon="@string/black_block_list_off">
+    </com.bella.mobilesafer.view.SettingItemView>
+
+</LinearLayout>
