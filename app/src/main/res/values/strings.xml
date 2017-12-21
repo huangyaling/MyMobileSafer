@@ -43,4 +43,35 @@
     <string name="rating_view_title2">多媒体</string>
     <string name="rating_view_title3">图片</string>
     <string name="rating_view_title4">缓存</string>
+    <string name="viewpager_welcome_title">1.欢迎使用手机防盗功能</string>
+    <string name="viewpager_simbind_title">手机卡绑定</string>
+    <string name="viewpager_simbind_button">绑定SIM卡</string>
+    <string name="viewpager_simbind_content">绑定SIM卡之后，若再次重启手机之后，SIM卡信息发生变更，手机卫士会自动发送报警短信给安全联系人</string>
+    <string name="viewpager_number_title">选择安全联系人</string>
+    <string name="viewpager_done_title">恭喜！设置完成</string>
+    <string name="viewpager_done_button">防盗保护已开启</string>
+    <string name="viewpager_guard">手机防盗向导</string>
+    <string name="viewpager_guard_item1">SIM卡变更</string>
+    <string name="viewpager_guard_item2">GPS追踪</string>
+    <string name="viewpager_guard_item3">远程数据销毁</string>
+    <string name="viewpager_guard_item4">远程锁屏</string>
+    <string name="blacknumber_title">黑名单设置</string>
+    <string name="noblacknumber_message">您还没有添加黑名单</string>
+    <string name="et_blacknumber_hint">请输入需要添加的号码</string>
+    <string name="et_blackname_hint">请输入名称</string>
+    <string name="cb_black_message">拦截短信</string>
+    <string name="cb_black_call">拦截电话</string>
+    <string name="block_isnull">号码和名称不能为空</string>
+    <string name="block_type_isnull">请选择拦截方式</string>
+    <string name="block_isExist">该号码已经被添加黑名单</string>
+    <string name="setup_password_title">设置密码</string>
+    <string name="setup_password">请输入密码</string>
+    <string name="setup_password_confirm">请再次输入密码</string>
+    <string name="button_confirm">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="password_confilct">两次输入的密码不一致</string>
+    <string name="password_error">密码输入错误！</string>
+
+
+
 </resources>

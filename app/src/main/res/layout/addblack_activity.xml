@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/et_black_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/et_blacknumber_hint"
+        android:background="@drawable/coner_white_rec"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/et_black_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/et_blackname_hint"
+        android:background="@drawable/coner_white_rec"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/block_tel_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/cb_black_call"
+            android:textColor="@color/purple"
+            android:textScaleX="1.1" />
+        <CheckBox
+            android:id="@+id/block_tel_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cb_black_message"
+            android:paddingLeft="40dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:textColor="@color/purple"
+            android:textScaleX="1.1" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/add_block_contact"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/add_black_background_selector"/>
+    <Button
+        android:id="@+id/add_block_fromcontacts"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/add_black_fromcontacts_background_selector"/>
+</LinearLayout>

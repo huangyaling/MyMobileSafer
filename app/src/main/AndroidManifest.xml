@@ -21,6 +21,13 @@
         <activity android:name=".activity.SettingsActivity"/>
         <activity android:name=".activity.AppManagerActivity"/>
         <activity android:name=".activity.StroageCleanActivity"/>
+        <activity android:name=".activity.MobileSecurity"/>
+        <activity android:name=".activity.BlackNumberActivity"/>
+        <activity android:name=".activity.AddBlackNumberActivity"/>
+        <instrumentation
+            android:name="android.test.InstrumentationTestRunner"
+            android:targetPackage="com.bella.mobilesafer"/>
+        <uses-library android:name="android.test.runner"></uses-library>
     </application>
 
 </manifest>
