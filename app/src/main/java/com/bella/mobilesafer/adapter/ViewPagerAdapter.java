@@ -1,12 +1,16 @@
 package com.bella.mobilesafer.adapter;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
 import com.bella.mobilesafer.R;
+import com.bella.mobilesafer.Util.ToastUtil;
 
 
 import java.util.ArrayList;
@@ -14,14 +18,22 @@ import java.util.ArrayList;
 /**
  * Created by huangyaling on 2017/11/30.
  */
-public class ViewPagerAdapter extends PagerAdapter {
+public class ViewPagerAdapter extends PagerAdapter{
     private ArrayList<View> viewsContainer = new ArrayList<View>();
+    public View welcomeView;
+    public View simBindView;
+    public View safeNumberView;
+    public View settingDoneView;
+    public Context mContext;
+
+    public Button bindSIM_btn;
 
     public ViewPagerAdapter(Context context){
-        View welcomeView = LayoutInflater.from(context).inflate(R.layout.viewpager_welcome,null);
-        View simBindView = LayoutInflater.from(context).inflate(R.layout.viewpager_sim,null);
-        View safeNumberView = LayoutInflater.from(context).inflate(R.layout.viewpager_number,null);
-        View settingDoneView = LayoutInflater.from(context).inflate(R.layout.viewpager_done,null);
+        this.mContext=context;
+        welcomeView = LayoutInflater.from(context).inflate(R.layout.viewpager_welcome,null);
+        simBindView = LayoutInflater.from(context).inflate(R.layout.viewpager_sim,null);
+        safeNumberView = LayoutInflater.from(context).inflate(R.layout.viewpager_number,null);
+        settingDoneView = LayoutInflater.from(context).inflate(R.layout.viewpager_done,null);
         viewsContainer.add(welcomeView);
         viewsContainer.add(simBindView);
         viewsContainer.add(safeNumberView);

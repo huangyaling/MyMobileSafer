@@ -44,11 +44,13 @@
             android:text="@string/viewpager_simbind_content"/>
     </LinearLayout>
     <Button
+        android:id="@+id/bind_sim"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/purple_blue"
         android:textSize="16sp"
+        android:onClick="bindSIM"
         android:text="@string/viewpager_simbind_button"/>
 
 </LinearLayout>

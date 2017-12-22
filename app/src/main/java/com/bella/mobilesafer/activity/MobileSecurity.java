@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.bella.mobilesafer.R;
+import com.bella.mobilesafer.Util.ToastUtil;
 import com.bella.mobilesafer.adapter.ViewPagerAdapter;
 import com.bella.mobilesafer.view.DepthPageTransformer;
 
@@ -19,6 +21,7 @@ public class MobileSecurity extends Activity implements ViewPager.OnPageChangeLi
     private ViewPager mViewPager;
     private LinearLayout mLinearLayout;
     private int mPagerindex=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,6 +63,11 @@ public class MobileSecurity extends Activity implements ViewPager.OnPageChangeLi
 
     @Override
     public void onPageScrollStateChanged(int state) {
+
+    }
+
+    public void bindSIM(){
+        ToastUtil.showToast(this,"jjjjjj");
 
     }
 }

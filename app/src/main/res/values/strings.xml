@@ -49,7 +49,7 @@
     <string name="viewpager_simbind_content">绑定SIM卡之后，若再次重启手机之后，SIM卡信息发生变更，手机卫士会自动发送报警短信给安全联系人</string>
     <string name="viewpager_number_title">选择安全联系人</string>
     <string name="viewpager_done_title">恭喜！设置完成</string>
-    <string name="viewpager_done_button">防盗保护已开启</string>
+    <string name="viewpager_done_button">您的手机防盗保护已开启</string>
     <string name="viewpager_guard">手机防盗向导</string>
     <string name="viewpager_guard_item1">SIM卡变更</string>
     <string name="viewpager_guard_item2">GPS追踪</string>

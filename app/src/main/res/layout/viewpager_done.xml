@@ -51,12 +51,13 @@
                 android:drawablePadding="10dp"
                 android:textSize="18sp"
                 android:text="@string/viewpager_done_button"/>
-            <ImageView
+            <com.bella.mobilesafer.view.SlideSwitcher
+                android:id="@+id/switch_btn"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="28dp"
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/swtch_btn_on"/>
+                />
         </RelativeLayout>
     </LinearLayout>
 
